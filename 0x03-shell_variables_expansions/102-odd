@@ -1,2 +1,2 @@
 #!/bin/bash
-paste -d, - - | cut -d, -fl
+perl -lne 'printf if $%2==1'
