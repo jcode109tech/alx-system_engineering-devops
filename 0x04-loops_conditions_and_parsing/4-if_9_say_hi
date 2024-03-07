@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# this script displays "Best school 10x"
+# execpt #9 position
+counter=0
+while [ $counter -lt 10 ]
+do
+    if [ $counter -eq 9 ]; 
+    then
+        echo "Hi"
+        echo "Best School"
+    else
+        echo "Best School"
+    fi
+    ((counter++))
+done

@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# this script displays "Best school 10x"
+# execpt #4 loop iter <bad luck from China>
+# execpt #9 loop iter <bad luck from Japan>
+# execpt #17 loop iter <bad luck from Italy>
+counter=1
+while [ $counter -le 20 ]
+do
+    echo "$counter"
+    case $counter in
+        4)
+            echo "bad luck from China"
+            ;;
+        9)
+            echo "bad luck from Japan"
+            ;;
+        17)
+            echo "bad luck form Italy"
+            ;;
+        *)
+            ;;
+    esac
+    ((counter++))
+done
