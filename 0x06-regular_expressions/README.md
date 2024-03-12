@@ -1,0 +1,9 @@
+# 0x06-regular_expressions
+
+## RESOURCES
+
+> Regular expressions - basics
+> Regular expressions - advanced
+> Rubular is your best friend
+> Use a regular expression against a problem: now you have 2 problems
+> Learn Regular Expressions with simple, interactive exercises
