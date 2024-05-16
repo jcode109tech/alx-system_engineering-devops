@@ -10,7 +10,7 @@ sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 # Restart Nginx
 sudo service nginx restart
 # Terminate the first nginx process ID
-kill "$(pgrep 'nginx' | head -1)"
+# kill "$(pgrep 'nginx' | head -1)"
 # Verify that Nginx is listening on port 80 (Additionl checks?)
 #if sudo netstat -tuln | grep -q "0.0.0.0:80"; then
 #    echo "Nginx is now listening on port 80."
