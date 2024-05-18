@@ -8,4 +8,4 @@
 # HOST=54.144.131.137
 # Connect to the server using SSH
 # ssh -i "$PRIVATE_KEY" "$USERNAME"@"$HOST"
-ssh -i ~/.ssh/id_rsa.pub ubuntu@54.144.131.137
+ssh -i ~/.ssh/id_rsa ubuntu@54.144.131.137
