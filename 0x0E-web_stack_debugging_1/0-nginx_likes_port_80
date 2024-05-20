@@ -5,7 +5,7 @@ sudo apt-get update
 sudo apt-get install -y nginx
 # Update Nginx default configuration to listen on port 80
 # echo "server { listen 80; }" | sudo tee ---
-rm /etc/nginx/sites enabled/default 
+rm /etc/nginx/sites-enabled/default 
 # - > /dev/null
 # Create a symbolic link to enable the default site
 sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
